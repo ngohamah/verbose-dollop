@@ -1,0 +1,8 @@
+# do not track changes made in .ipynb_checkpoints
+**/.ipynb_checkpoints
+
+# ignore log files
+**/.DS_Store
+
+# ignore csv files
+**/*.csv
