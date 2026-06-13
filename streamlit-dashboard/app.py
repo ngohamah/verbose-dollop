@@ -17,12 +17,12 @@ st.set_page_config(
 # ---------------------------------------------------------------------------
 @st.cache_data(show_spinner="Loading & joining 96K+ orders…")
 def load_data():
-    orders = pd.read_csv("../olist_orders_dataset.csv")
-    reviews = pd.read_csv("../olist_order_reviews_dataset.csv")
-    customers = pd.read_csv("../olist_customers_dataset.csv")
-    items = pd.read_csv("../olist_order_items_dataset.csv")
-    products = pd.read_csv("../olist_products_dataset.csv")
-    translations = pd.read_csv("../product_category_name_translation.csv")
+    orders = pd.read_csv("https://drive.google.com/file/d/13fbZqIi6iKHf4Ede3wNZwxF8_jpgoJXc/view?usp=drive_link")
+    reviews = pd.read_csv("https://drive.google.com/file/d/1xKpDRqsbAfcGMN1xcUWJXlV9in_YVArF/view?usp=drive_link")
+    customers = pd.read_csv("https://drive.google.com/file/d/1VL2rdAcFam3W3oLWSJruDSUqvJqNXywG/view?usp=drive_link")
+    items = pd.read_csv("https://drive.google.com/file/d/16zR8q1RmmaaT0SPos8RobMRK4tSmIggF/view?usp=drive_link")
+    products = pd.read_csv("https://drive.google.com/file/d/1COCmc9yHeHxTapPSamIkLdFYTtulSS4i/view?usp=drive_link")
+    translations = pd.read_csv("https://drive.google.com/file/d/1bfN52yQgS3sE7ZEJcXYQXHMeWUxJF6mU/view?usp=drive_link")
 
     # Aggregate reviews: one row per order (prevent 1-to-many row explosion)
     reviews_agg = (

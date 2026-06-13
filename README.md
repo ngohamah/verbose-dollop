@@ -8,7 +8,7 @@ Analysis of 96,470 Olist Brazilian e-commerce orders (2016–2018) reveals that 
 
 ## B. Project Links
 
-- **Dashboard:** [Last Mile Delivery Auditor on streamlit](https://replit.com)
+- **Dashboard:** [Last Mile Delivery Auditor on streamlit](https://verbose-dollop-iap4z67fcfrfdzaerks98a.streamlit.app/)
 - **Notebook:** [`analysis.ipynb`](./analysis.ipynb) — Full analysis with all 4 user stories + bonus
 - **Presentation:** *(link to be added after slide export)*
 
