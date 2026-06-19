@@ -351,7 +351,7 @@ fig_cat = px.bar(
     text_auto=".1f",
 )
 fig_cat.update_layout(
-    plot_bgcolor="white",
+    plot_bgcolor="gray",
     coloraxis_showscale=False,
     xaxis=dict(ticksuffix="%", range=[0, 105]),
 )
