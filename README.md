@@ -47,7 +47,7 @@ Analysis of 96,470 Olist Brazilian e-commerce orders (2016–2018) reveals that 
 pip install -r streamlit-dashboard/requirements.txt
 streamlit run streamlit-dashboard/app.py
 ```
-## Run Locally
+## Demo
 ![Dashboard](https://github.com/ngohamah/verbose-dollop/blob/master/streamlit-dashboard/screenshot/demo.png)
 
 
