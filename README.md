@@ -48,7 +48,8 @@ pip install -r streamlit-dashboard/requirements.txt
 streamlit run streamlit-dashboard/app.py
 ```
 ## Run Locally
-![Dashboard](https://github.com/ngohamah/verbose-dellop/blob/master/streamlit-dashboard/screenshot/demo.png)
+![Dashboard](https://github.com/ngohamah/verbose-dollop/blob/master/streamlit-dashboard/screenshot/demo.png)
+
 
 ## Data Files
 
